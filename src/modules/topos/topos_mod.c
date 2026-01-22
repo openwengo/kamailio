@@ -169,6 +169,8 @@ static cmd_export_t cmds[] = {
 static param_export_t params[] = {
 	{"storage", PARAM_STR, &_tps_storage},
 	{"db_url", PARAM_STR, &_tps_db_url},
+	{"db_table_t", PARAM_STR, &tt_table_name},
+	{"db_table_d", PARAM_STR, &td_table_name},
 	{"mask_callid", PARAM_INT, &_tps_param_mask_callid},
 	{"sanity_checks", PARAM_INT, &_tps_sanity_checks},
 	{"header_mode", PARAM_INT, &_tps_header_mode},

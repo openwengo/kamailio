@@ -138,6 +138,44 @@ modparam("topos", "db_url", "&exampledb;")
 </programlisting>
 		</example>
 	</section>
+	<section id="topos.p.db_table_t">
+		<title><varname>db_table_t</varname> (str)</title>
+		<para>
+		Database table name for topology transactions.
+		</para>
+		<para>
+		<emphasis>
+			Default value is <quote>topos_t</quote>.
+		</emphasis>
+		</para>
+		<example>
+		<title>Set <varname>db_table_t</varname> parameter</title>
+		<programlisting format="linespecific">
+...
+modparam("topos", "db_table_t", "custom_topos_t")
+...
+</programlisting>
+		</example>
+	</section>
+	<section id="topos.p.db_table_d">
+		<title><varname>db_table_d</varname> (str)</title>
+		<para>
+		Database table name for topology dialogs.
+		</para>
+		<para>
+		<emphasis>
+			Default value is <quote>topos_d</quote>.
+		</emphasis>
+		</para>
+		<example>
+		<title>Set <varname>db_table_d</varname> parameter</title>
+		<programlisting format="linespecific">
+...
+modparam("topos", "db_table_d", "custom_topos_d")
+...
+</programlisting>
+		</example>
+	</section>
 	<section id="topos.p.mask_callid">
 		<title><varname>mask_callid</varname> (int)</title>
 		<para>
